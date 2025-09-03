@@ -1,0 +1,79 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+nav {
+  background-color: #1e1e1e;
+  padding: 15px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* MAIN DE INICIO */
+.inicio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 20px;
+}
+.inicio .col {
+  width: 30%;
+  text-align: center;
+}
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+.entrada-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1e1e1e;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 40px;
+}
+.footer-col {
+  width: 30%;
+  text-align: center;
+}
+.redes a {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+/* MÁS VENDIDOS */
+.autos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 40px;
+}
+.auto {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+.auto img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
